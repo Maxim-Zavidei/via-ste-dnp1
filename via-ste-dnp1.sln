@@ -52,6 +52,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KthLargestNumber", "Lecture
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpellOutTheNumber", "Lecture2\SpellOutTheNumber\SpellOutTheNumber.csproj", "{2CE69C87-834A-45FA-BE89-44A1E7023F9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameQuestLogic", "Lecture2\GameQuestLogic\GameQuestLogic.csproj", "{043A9374-8BFB-423C-BEBC-CF1257C3224B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,7 @@ Global
 		{1911AD73-CB7E-4B41-815A-4B4527856069} = {75012F5B-6F5A-4638-8D55-6F6DB0623951}
 		{3D6ED455-B6F7-46E5-8642-18F91603F0AC} = {75012F5B-6F5A-4638-8D55-6F6DB0623951}
 		{2CE69C87-834A-45FA-BE89-44A1E7023F9F} = {75012F5B-6F5A-4638-8D55-6F6DB0623951}
+		{043A9374-8BFB-423C-BEBC-CF1257C3224B} = {75012F5B-6F5A-4638-8D55-6F6DB0623951}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E6F2C04A-BC8E-47B3-8CAC-6CEFB6CE18C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -155,5 +158,9 @@ Global
 		{2CE69C87-834A-45FA-BE89-44A1E7023F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CE69C87-834A-45FA-BE89-44A1E7023F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CE69C87-834A-45FA-BE89-44A1E7023F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{043A9374-8BFB-423C-BEBC-CF1257C3224B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{043A9374-8BFB-423C-BEBC-CF1257C3224B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{043A9374-8BFB-423C-BEBC-CF1257C3224B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{043A9374-8BFB-423C-BEBC-CF1257C3224B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
