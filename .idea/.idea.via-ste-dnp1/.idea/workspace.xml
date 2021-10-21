@@ -38,38 +38,49 @@
     <projectFile profileName="FourthCoffee">Lecture4/FourthCoffee/FourthCoffee.csproj</projectFile>
     <projectFile profileName="IIS Express">Lecture4/TicTacToe/TicTacToe.csproj</projectFile>
     <projectFile profileName="TicTacToe">Lecture4/TicTacToe/TicTacToe.csproj</projectFile>
+    <projectFile profileName="IIS Express">Lecture5/SimpleLogin/SimpleLogin.csproj</projectFile>
+    <projectFile profileName="SimpleLogin">Lecture5/SimpleLogin/SimpleLogin.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="Solution for Fourth Coffee exercise, lecture 4">
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/App.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/Helpers/Helper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/Pages/Board.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/Pages/Index.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/Pages/Square.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/Shared/MainLayout.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/Shared/MainLayout.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/Shared/NavMenu.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/Shared/NavMenu.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/Shared/SurveyPrompt.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/TicTacToe.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/_Imports.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/open-iconic/FONT-LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/open-iconic/ICON-LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/open-iconic/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/open-iconic/font/fonts/open-iconic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/open-iconic/font/fonts/open-iconic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/open-iconic/font/fonts/open-iconic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/open-iconic/font/fonts/open-iconic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/sample-data/weather.json" afterDir="false" />
+    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="Solution for TicTacToe exercise, lecture 4">
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/App.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/Authentication/CustomAuthenticationStateProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/Data/IUserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/Data/Impl/InMemoryUserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/Data/WeatherForecast.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/Data/WeatherForecastService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/Models/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/Pages/Counter.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/Pages/Error.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/Pages/Error.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/Pages/FetchData.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/Pages/Index.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/Pages/_Host.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/Shared/MainLayout.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/Shared/MainLayout.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/Shared/NavMenu.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/Shared/NavMenu.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/Shared/SurveyPrompt.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/SimpleLogin.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/_Imports.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/wwwroot/css/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/wwwroot/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/wwwroot/css/open-iconic/FONT-LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/wwwroot/css/open-iconic/ICON-LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/wwwroot/css/open-iconic/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/wwwroot/css/open-iconic/font/fonts/open-iconic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/wwwroot/css/open-iconic/font/fonts/open-iconic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/wwwroot/css/open-iconic/font/fonts/open-iconic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/wwwroot/css/open-iconic/font/fonts/open-iconic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/wwwroot/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture5/SimpleLogin/wwwroot/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/via-ste-dnp1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/via-ste-dnp1.sln" afterDir="false" />
     </list>
@@ -711,6 +722,36 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="SimpleLogin" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Lecture5/SimpleLogin/SimpleLogin.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="SimpleLogin" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="SimpleLogin: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Lecture5/SimpleLogin/SimpleLogin.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="TicTacToe" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Lecture4/TicTacToe/TicTacToe.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
@@ -752,7 +793,7 @@
       <updated>1634849716667</updated>
       <workItem from="1634849722084" duration="2311000" />
       <workItem from="1634852063608" duration="1830000" />
-      <workItem from="1634853941102" duration="4558000" />
+      <workItem from="1634853941102" duration="5221000" />
     </task>
     <task id="LOCAL-00001" summary="Created repository">
       <created>1634850013094</created>
@@ -950,7 +991,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634856656033</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Solution for TicTacToe exercise, lecture 4">
+      <created>1634858871550</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1634858871550</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -971,7 +1019,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Solution for exercise 1, lecture1" />
     <MESSAGE value="Solution for exercise ex 3 lecture 1" />
     <MESSAGE value="Solution for exercise 3, lecture 1" />
     <MESSAGE value="Solution for exercise 4, lecture 1" />
@@ -996,6 +1043,7 @@
     <MESSAGE value="Solution for exercise 7, lecture 3" />
     <MESSAGE value="Solution for blazor tutorial exercise, lecture 4" />
     <MESSAGE value="Solution for Fourth Coffee exercise, lecture 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for Fourth Coffee exercise, lecture 4" />
+    <MESSAGE value="Solution for TicTacToe exercise, lecture 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for TicTacToe exercise, lecture 4" />
   </component>
 </project>
