@@ -12,17 +12,17 @@
     <projectFile>Lecture1/Substring/Substring.csproj</projectFile>
     <projectFile>Lecture2/Polymorphism/Polymorphism.csproj</projectFile>
     <projectFile>Lecture2/BirdWatchers/BirdWatchers.csproj</projectFile>
+    <projectFile>Lecture2/CarAndPredicates/CarAndPredicates.csproj</projectFile>
+    <projectFile>Lecture2/DoctorsWaitingRoom/DoctorsWaitingRoom.csproj</projectFile>
     <projectFile profileName="IIS Express">Lecture7/AdvancedTodoWebAPI/AdvancedTodoWebAPI.csproj</projectFile>
     <projectFile profileName="AdvancedTodoWebAPI">Lecture7/AdvancedTodoWebAPI/AdvancedTodoWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="Solution for exercise 1, lecture 2">
-      <change afterPath="$PROJECT_DIR$/Lecture2/BirdWatchers/Bird.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture2/BirdWatchers/BirdWatcher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture2/BirdWatchers/BirdWatchers.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture2/BirdWatchers/BlindBirdWatcher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture2/BirdWatchers/DeafBirdWatcher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture2/BirdWatchers/Program.cs" afterDir="false" />
+    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="Solution for exercise 3, lecture 2">
+      <change afterPath="$PROJECT_DIR$/Lecture2/DoctorsWaitingRoom/DoctorsWaitingRoom.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture2/DoctorsWaitingRoom/Patient.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture2/DoctorsWaitingRoom/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture2/DoctorsWaitingRoom/WaitingRoom.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/via-ste-dnp1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/via-ste-dnp1.sln" afterDir="false" />
     </list>
@@ -131,6 +131,24 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lecture2/CarAndPredicates/CarAndPredicates.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="DoctorsWaitingRoom" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lecture2/DoctorsWaitingRoom/DoctorsWaitingRoom.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -306,7 +324,7 @@
       <option name="presentableId" value="Default" />
       <updated>1634849716667</updated>
       <workItem from="1634849722084" duration="2311000" />
-      <workItem from="1634852063608" duration="327000" />
+      <workItem from="1634852063608" duration="632000" />
     </task>
     <task id="LOCAL-00001" summary="Created repository">
       <created>1634850013094</created>
@@ -392,7 +410,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634852115429</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Solution for exercise 2, lecture 2">
+      <created>1634852451031</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1634852451031</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Solution for exercise 3, lecture 2">
+      <created>1634852578600</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1634852578600</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,6 +457,8 @@
     <MESSAGE value="Solution for exercise 8, lecture 1" />
     <MESSAGE value="Solution for exercise 9, lecture 1" />
     <MESSAGE value="Solution for exercise 1, lecture 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for exercise 1, lecture 2" />
+    <MESSAGE value="Solution for exercise 2, lecture 2" />
+    <MESSAGE value="Solution for exercise 3, lecture 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for exercise 3, lecture 2" />
   </component>
 </project>
