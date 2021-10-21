@@ -2,7 +2,6 @@
 
 namespace BiggestDifference {
     class Program {
-
         static int BigDiff(int[] arr) {
             int minSoFar = arr[0];
             int maxSoFar = arr[0];
@@ -10,6 +9,7 @@ namespace BiggestDifference {
                 if (arr[i] < minSoFar) minSoFar = arr[i];
                 if (arr[i] > maxSoFar) maxSoFar = arr[i];
             }
+
             return maxSoFar - minSoFar;
         }
 
