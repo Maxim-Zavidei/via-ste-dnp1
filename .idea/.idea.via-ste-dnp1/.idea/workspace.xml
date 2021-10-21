@@ -27,14 +27,17 @@
     <projectFile>Lecture3/MultithreadedServer-Client/MultithreadedServer-Client.csproj</projectFile>
     <projectFile>Lecture3/MultithreadedServer-Server/MultithreadedServer-Server.csproj</projectFile>
     <projectFile>Lecture3/ChatProgram-Client/ChatProgram-Client.csproj</projectFile>
+    <projectFile>Lecture3/ChatProgram-Server/ChatProgram-Server.csproj</projectFile>
+    <projectFile>Lecture3/SendingObject-Client/SendingObject-Client.csproj</projectFile>
     <projectFile profileName="IIS Express">Lecture7/AdvancedTodoWebAPI/AdvancedTodoWebAPI.csproj</projectFile>
     <projectFile profileName="AdvancedTodoWebAPI">Lecture7/AdvancedTodoWebAPI/AdvancedTodoWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="Solution for exercise 4, lecture 3">
-      <change afterPath="$PROJECT_DIR$/Lecture3/ChatProgram-Client/ChatProgram-Client.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture3/ChatProgram-Client/ClientReader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture3/ChatProgram-Client/Program.cs" afterDir="false" />
+    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="Solution for exercise 5, lecture 3">
+      <change afterPath="$PROJECT_DIR$/Lecture3/SendingObject-Client/ClientReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture3/SendingObject-Client/Message.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture3/SendingObject-Client/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture3/SendingObject-Client/SendingObject-Client.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/via-ste-dnp1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/via-ste-dnp1.sln" afterDir="false" />
     </list>
@@ -458,6 +461,42 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="SendingObject-Client" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lecture3/SendingObject-Client/SendingObject-Client.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="SendingObject-Server" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lecture3/SendingObject-Server/SendingObject-Server.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="SimplePerson" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -589,7 +628,7 @@
       <updated>1634849716667</updated>
       <workItem from="1634849722084" duration="2311000" />
       <workItem from="1634852063608" duration="1830000" />
-      <workItem from="1634853941102" duration="307000" />
+      <workItem from="1634853941102" duration="665000" />
     </task>
     <task id="LOCAL-00001" summary="Created repository">
       <created>1634850013094</created>
@@ -759,7 +798,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634854062617</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Solution for exercise 5, lecture 3">
+      <created>1634854381902</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1634854381902</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -803,6 +849,7 @@
     <MESSAGE value="Solution for exercise 1, lecture 3" />
     <MESSAGE value="Solution for exercise 2 and 3, lecture 3" />
     <MESSAGE value="Solution for exercise 4, lecture 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for exercise 4, lecture 3" />
+    <MESSAGE value="Solution for exercise 5, lecture 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for exercise 5, lecture 3" />
   </component>
 </project>
