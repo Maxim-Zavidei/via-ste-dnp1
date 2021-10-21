@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurroundWith", "Lecture1\Su
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Substring", "Lecture1\Substring\Substring.csproj", "{B15AE372-B621-4B27-A6D2-144DEF0D93B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Lecture2\Polymorphism\Polymorphism.csproj", "{FD6D7327-0CF2-41FE-8EA5-0D74002CE6CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +52,7 @@ Global
 		{957717F5-C140-45B9-9566-33819E97491A} = {E8844627-485F-4EE9-9862-31E1D8F18F15}
 		{7363F399-A853-43A6-B145-846B328899A3} = {E8844627-485F-4EE9-9862-31E1D8F18F15}
 		{B15AE372-B621-4B27-A6D2-144DEF0D93B0} = {E8844627-485F-4EE9-9862-31E1D8F18F15}
+		{FD6D7327-0CF2-41FE-8EA5-0D74002CE6CC} = {75012F5B-6F5A-4638-8D55-6F6DB0623951}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E6F2C04A-BC8E-47B3-8CAC-6CEFB6CE18C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -92,5 +95,9 @@ Global
 		{B15AE372-B621-4B27-A6D2-144DEF0D93B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B15AE372-B621-4B27-A6D2-144DEF0D93B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B15AE372-B621-4B27-A6D2-144DEF0D93B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD6D7327-0CF2-41FE-8EA5-0D74002CE6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD6D7327-0CF2-41FE-8EA5-0D74002CE6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD6D7327-0CF2-41FE-8EA5-0D74002CE6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD6D7327-0CF2-41FE-8EA5-0D74002CE6CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
