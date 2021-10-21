@@ -38,6 +38,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Lecture2\Po
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirdWatchers", "Lecture2\BirdWatchers\BirdWatchers.csproj", "{8D2ECCD8-3EA8-437B-A0BA-59FCE9734E1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarAndPredicates", "Lecture2\CarAndPredicates\CarAndPredicates.csproj", "{D6F79EB6-9F78-4504-A16F-3C5282E64946}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +58,7 @@ Global
 		{B15AE372-B621-4B27-A6D2-144DEF0D93B0} = {E8844627-485F-4EE9-9862-31E1D8F18F15}
 		{FD6D7327-0CF2-41FE-8EA5-0D74002CE6CC} = {75012F5B-6F5A-4638-8D55-6F6DB0623951}
 		{8D2ECCD8-3EA8-437B-A0BA-59FCE9734E1F} = {75012F5B-6F5A-4638-8D55-6F6DB0623951}
+		{D6F79EB6-9F78-4504-A16F-3C5282E64946} = {75012F5B-6F5A-4638-8D55-6F6DB0623951}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E6F2C04A-BC8E-47B3-8CAC-6CEFB6CE18C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -106,5 +109,9 @@ Global
 		{8D2ECCD8-3EA8-437B-A0BA-59FCE9734E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D2ECCD8-3EA8-437B-A0BA-59FCE9734E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D2ECCD8-3EA8-437B-A0BA-59FCE9734E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F79EB6-9F78-4504-A16F-3C5282E64946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F79EB6-9F78-4504-A16F-3C5282E64946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F79EB6-9F78-4504-A16F-3C5282E64946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F79EB6-9F78-4504-A16F-3C5282E64946}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
