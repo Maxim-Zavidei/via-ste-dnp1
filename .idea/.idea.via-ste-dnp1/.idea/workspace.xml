@@ -6,14 +6,15 @@
     <projectFile>Lecture1/SimplePerson/SimplePerson.csproj</projectFile>
     <projectFile>Lecture1/PrintingNumbers/PrintingNumbers.csproj</projectFile>
     <projectFile>Lecture1/MathInSeparateNamespace/MathInSeparateNamespace.csproj</projectFile>
+    <projectFile>Lecture1/MoreMath/MoreMath.csproj</projectFile>
+    <projectFile>Lecture1/ABBA/ABBA.csproj</projectFile>
     <projectFile profileName="IIS Express">Lecture7/AdvancedTodoWebAPI/AdvancedTodoWebAPI.csproj</projectFile>
     <projectFile profileName="AdvancedTodoWebAPI">Lecture7/AdvancedTodoWebAPI/AdvancedTodoWebAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="Solution for exercise 4, lecture 1">
-      <change afterPath="$PROJECT_DIR$/Lecture1/MathInSeparateNamespace/MathInSeparateNamespace.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture1/MathInSeparateNamespace/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="Solution for exercise 6, lecture 1">
+      <change afterPath="$PROJECT_DIR$/Lecture1/ABBA/ABBA.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture1/ABBA/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/via-ste-dnp1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/via-ste-dnp1.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +41,24 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.AdvancedTodoWebAPI">
+    <configuration name="ABBA" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lecture1/ABBA/ABBA.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="ArrayClumps" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -187,7 +206,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634849716667</updated>
-      <workItem from="1634849722084" duration="1341000" />
+      <workItem from="1634849722084" duration="1658000" />
     </task>
     <task id="LOCAL-00001" summary="Created repository">
       <created>1634850013094</created>
@@ -231,7 +250,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634850959841</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Solution for exercise 5, lecture 1">
+      <created>1634851157700</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1634851157700</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Solution for exercise 6, lecture 1">
+      <created>1634851374964</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1634851374964</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +290,8 @@
     <MESSAGE value="Solution for exercise ex 3 lecture 1" />
     <MESSAGE value="Solution for exercise 3, lecture 1" />
     <MESSAGE value="Solution for exercise 4, lecture 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for exercise 4, lecture 1" />
+    <MESSAGE value="Solution for exercise 5, lecture 1" />
+    <MESSAGE value="Solution for exercise 6, lecture 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for exercise 6, lecture 1" />
   </component>
 </project>
