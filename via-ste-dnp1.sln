@@ -74,6 +74,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendingObject-Client", "Lec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendingObject-Server", "Lecture3\SendingObject-Server\SendingObject-Server.csproj", "{4EDD9C18-943B-4323-89C3-4BACDC37CB36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorTutorial", "Lecture4\BlazorTutorial\BlazorTutorial.csproj", "{52B93442-F957-45CD-B7B7-D1049F1F8D6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -110,6 +112,7 @@ Global
 		{4DC161F4-AD71-4541-AF01-8E031B53C495} = {778DDBAE-C6B0-428B-8C57-789D370D6AF3}
 		{1BEB3578-7C7A-47E9-B93A-7CF3F8CB1489} = {778DDBAE-C6B0-428B-8C57-789D370D6AF3}
 		{4EDD9C18-943B-4323-89C3-4BACDC37CB36} = {778DDBAE-C6B0-428B-8C57-789D370D6AF3}
+		{52B93442-F957-45CD-B7B7-D1049F1F8D6E} = {69651E77-1FF4-4E66-AAED-4F0BF97323CD}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E6F2C04A-BC8E-47B3-8CAC-6CEFB6CE18C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -232,5 +235,9 @@ Global
 		{4EDD9C18-943B-4323-89C3-4BACDC37CB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EDD9C18-943B-4323-89C3-4BACDC37CB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EDD9C18-943B-4323-89C3-4BACDC37CB36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52B93442-F957-45CD-B7B7-D1049F1F8D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B93442-F957-45CD-B7B7-D1049F1F8D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B93442-F957-45CD-B7B7-D1049F1F8D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B93442-F957-45CD-B7B7-D1049F1F8D6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

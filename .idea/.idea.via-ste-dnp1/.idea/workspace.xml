@@ -29,15 +29,50 @@
     <projectFile>Lecture3/ChatProgram-Client/ChatProgram-Client.csproj</projectFile>
     <projectFile>Lecture3/ChatProgram-Server/ChatProgram-Server.csproj</projectFile>
     <projectFile>Lecture3/SendingObject-Client/SendingObject-Client.csproj</projectFile>
+    <projectFile>Lecture3/SendingObject-Server/SendingObject-Server.csproj</projectFile>
     <projectFile profileName="IIS Express">Lecture7/AdvancedTodoWebAPI/AdvancedTodoWebAPI.csproj</projectFile>
     <projectFile profileName="AdvancedTodoWebAPI">Lecture7/AdvancedTodoWebAPI/AdvancedTodoWebAPI.csproj</projectFile>
+    <projectFile profileName="IIS Express">Lecture4/BlazorTutorial/BlazorTutorial.csproj</projectFile>
+    <projectFile profileName="BlazorTutorial">Lecture4/BlazorTutorial/BlazorTutorial.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="Solution for exercise 5, lecture 3">
-      <change afterPath="$PROJECT_DIR$/Lecture3/SendingObject-Client/ClientReader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture3/SendingObject-Client/Message.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture3/SendingObject-Client/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture3/SendingObject-Client/SendingObject-Client.csproj" afterDir="false" />
+    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="Solution for exercise 7, lecture 3">
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/App.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/BlazorTutorial.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/Data/ITodosData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/Data/TodoJSONData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/Models/Todo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/Pages/AddTodo.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/Pages/Edit.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/Pages/Error.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/Pages/Error.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/Pages/Index.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/Pages/Todos.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/Pages/_Host.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/Shared/MainLayout.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/Shared/MainLayout.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/Shared/NavMenu.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/Shared/NavMenu.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/Shared/SurveyPrompt.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/_Imports.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/wwwroot/css/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/wwwroot/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/wwwroot/css/open-iconic/FONT-LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/wwwroot/css/open-iconic/ICON-LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/wwwroot/css/open-iconic/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/wwwroot/css/open-iconic/font/fonts/open-iconic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/wwwroot/css/open-iconic/font/fonts/open-iconic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/wwwroot/css/open-iconic/font/fonts/open-iconic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/wwwroot/css/open-iconic/font/fonts/open-iconic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/wwwroot/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/BlazorTutorial/wwwroot/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/via-ste-dnp1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/via-ste-dnp1.sln" afterDir="false" />
     </list>
@@ -617,6 +652,36 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="BlazorTutorial" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Lecture4/BlazorTutorial/BlazorTutorial.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="BlazorTutorial" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="BlazorTutorial: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Lecture4/BlazorTutorial/BlazorTutorial.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -628,7 +693,7 @@
       <updated>1634849716667</updated>
       <workItem from="1634849722084" duration="2311000" />
       <workItem from="1634852063608" duration="1830000" />
-      <workItem from="1634853941102" duration="665000" />
+      <workItem from="1634853941102" duration="1286000" />
     </task>
     <task id="LOCAL-00001" summary="Created repository">
       <created>1634850013094</created>
@@ -805,7 +870,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634854381902</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Solution for exercise 7, lecture 3">
+      <created>1634854751202</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1634854751202</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -850,6 +922,7 @@
     <MESSAGE value="Solution for exercise 2 and 3, lecture 3" />
     <MESSAGE value="Solution for exercise 4, lecture 3" />
     <MESSAGE value="Solution for exercise 5, lecture 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for exercise 5, lecture 3" />
+    <MESSAGE value="Solution for exercise 7, lecture 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for exercise 7, lecture 3" />
   </component>
 </project>
