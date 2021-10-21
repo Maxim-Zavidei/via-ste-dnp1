@@ -36,45 +36,40 @@
     <projectFile profileName="BlazorTutorial">Lecture4/BlazorTutorial/BlazorTutorial.csproj</projectFile>
     <projectFile profileName="IIS Express">Lecture4/FourthCoffee/FourthCoffee.csproj</projectFile>
     <projectFile profileName="FourthCoffee">Lecture4/FourthCoffee/FourthCoffee.csproj</projectFile>
+    <projectFile profileName="IIS Express">Lecture4/TicTacToe/TicTacToe.csproj</projectFile>
+    <projectFile profileName="TicTacToe">Lecture4/TicTacToe/TicTacToe.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="Solution for blazor tutorial exercise, lecture 4">
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/App.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/FourthCoffee.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/Models/IProductService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/Models/Product.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/Models/ProductService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/Pages/About.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/Pages/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/Pages/Error.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/Pages/Index.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/Pages/Order.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/Pages/OrderSuccess.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/Pages/_Host.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/Shared/MainLayout.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/Shared/MainLayout.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/Shared/NavMenu.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/Shared/NavMenu.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/Shared/SurveyPrompt.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/_Imports.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/wwwroot/css/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/wwwroot/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/wwwroot/css/open-iconic/FONT-LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/wwwroot/css/open-iconic/ICON-LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/wwwroot/css/open-iconic/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/wwwroot/css/open-iconic/font/fonts/open-iconic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/wwwroot/css/open-iconic/font/fonts/open-iconic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/wwwroot/css/open-iconic/font/fonts/open-iconic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/wwwroot/css/open-iconic/font/fonts/open-iconic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/wwwroot/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture4/FourthCoffee/wwwroot/favicon.ico" afterDir="false" />
+    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="Solution for Fourth Coffee exercise, lecture 4">
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/App.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/Helpers/Helper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/Pages/Board.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/Pages/Index.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/Pages/Square.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/Shared/MainLayout.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/Shared/MainLayout.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/Shared/NavMenu.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/Shared/NavMenu.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/Shared/SurveyPrompt.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/TicTacToe.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/_Imports.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/open-iconic/FONT-LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/open-iconic/ICON-LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/open-iconic/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/open-iconic/font/fonts/open-iconic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/open-iconic/font/fonts/open-iconic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/open-iconic/font/fonts/open-iconic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/css/open-iconic/font/fonts/open-iconic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture4/TicTacToe/wwwroot/sample-data/weather.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/via-ste-dnp1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/via-ste-dnp1.sln" afterDir="false" />
     </list>
@@ -96,6 +91,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34995845" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -714,6 +711,36 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="TicTacToe" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Lecture4/TicTacToe/TicTacToe.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="TicTacToe" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="TicTacToe: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Lecture4/TicTacToe/TicTacToe.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -725,7 +752,7 @@
       <updated>1634849716667</updated>
       <workItem from="1634849722084" duration="2311000" />
       <workItem from="1634852063608" duration="1830000" />
-      <workItem from="1634853941102" duration="1980000" />
+      <workItem from="1634853941102" duration="4558000" />
     </task>
     <task id="LOCAL-00001" summary="Created repository">
       <created>1634850013094</created>
@@ -916,7 +943,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634855466928</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Solution for Fourth Coffee exercise, lecture 4">
+      <created>1634856656033</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1634856656033</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -937,7 +971,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Initial commit" />
     <MESSAGE value="Solution for exercise 1, lecture1" />
     <MESSAGE value="Solution for exercise ex 3 lecture 1" />
     <MESSAGE value="Solution for exercise 3, lecture 1" />
@@ -962,6 +995,7 @@
     <MESSAGE value="Solution for exercise 5, lecture 3" />
     <MESSAGE value="Solution for exercise 7, lecture 3" />
     <MESSAGE value="Solution for blazor tutorial exercise, lecture 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for blazor tutorial exercise, lecture 4" />
+    <MESSAGE value="Solution for Fourth Coffee exercise, lecture 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for Fourth Coffee exercise, lecture 4" />
   </component>
 </project>
