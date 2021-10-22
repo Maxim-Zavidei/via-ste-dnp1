@@ -1,0 +1,30 @@
+[
+  {
+    "FirstName": "bob",
+    "LastName": "bob",
+    "Email": "bob@bob.com",
+    "Password": "123456",
+    "SecurityLevel": 0
+  },
+  {
+    "FirstName": "steve",
+    "LastName": "bob",
+    "Email": "steve@gmail.com",
+    "Password": "123456",
+    "SecurityLevel": 0
+  },
+  {
+    "FirstName": "david",
+    "LastName": "sdfgs",
+    "Email": "david@gmail.com",
+    "Password": "123QWEasdzxc",
+    "SecurityLevel": 0
+  },
+  {
+    "FirstName": "Charlie",
+    "LastName": "Charliesen",
+    "Email": "charlie@gmail.com",
+    "Password": "123QWEasdzxc",
+    "SecurityLevel": 0
+  }
+]
