@@ -45,31 +45,50 @@
     <projectFile profileName="Assignment1">Assignments/Assignment1/Assignment1.csproj</projectFile>
     <projectFile profileName="IIS Express">Assignments/Assignment2/Assignment2.csproj</projectFile>
     <projectFile profileName="Assignment2">Assignments/Assignment2/Assignment2.csproj</projectFile>
+    <projectFile profileName="IIS Express">Lecture8/TodoTutorial2.0/TodoTutorial2.0.csproj</projectFile>
+    <projectFile profileName="TodoTutorial2.0">Lecture8/TodoTutorial2.0/TodoTutorial2.0.csproj</projectFile>
+    <projectFile profileName="TodoTutorial">Lecture8/TodoTutorial2.0/TodoTutorial2.0.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment2/Assignment2.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment2/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment2/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment2/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment2/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment2/WeatherForecast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment2/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment2/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture7/AdvancedTodoWebAPI/Controllers/TodosController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture7/AdvancedTodoWebAPI/Controllers/UsersController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture7/AdvancedTodoWebAPI/Data/ITodosService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture7/AdvancedTodoWebAPI/Data/IUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture7/AdvancedTodoWebAPI/Data/InMemoryUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture7/AdvancedTodoWebAPI/Data/TodoService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture7/AdvancedTodoWebAPI/Models/Todo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture7/AdvancedTodoWebAPI/Models/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture7/AdvancedTodoWebAPI/todos.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture7/HangmanGame/HangmanGame.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture7/HangmanGame/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/App.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/Data/ITodoData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/Data/TodoJSONData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/Models/Todo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/Pages/AddTodo.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/Pages/Edit.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/Pages/Error.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/Pages/Error.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/Pages/Index.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/Pages/Todos.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/Pages/_Host.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/Shared/MainLayout.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/Shared/MainLayout.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/Shared/NavMenu.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/Shared/NavMenu.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/Shared/SurveyPrompt.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/TodoTutorial2.0.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/_Imports.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/todos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/wwwroot/css/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/wwwroot/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/wwwroot/css/open-iconic/FONT-LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/wwwroot/css/open-iconic/ICON-LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/wwwroot/css/open-iconic/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/wwwroot/css/open-iconic/font/fonts/open-iconic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/wwwroot/css/open-iconic/font/fonts/open-iconic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/wwwroot/css/open-iconic/font/fonts/open-iconic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/wwwroot/css/open-iconic/font/fonts/open-iconic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/wwwroot/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/wwwroot/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture7/AdvancedTodoWebAPI/AdvancedTodoWebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture7/AdvancedTodoWebAPI/AdvancedTodoWebAPI.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture7/AdvancedTodoWebAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture7/AdvancedTodoWebAPI/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/via-ste-dnp1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/via-ste-dnp1.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +98,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Lecture4/TodoTutorial/Data/TodoJSONData.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1zpeyo2oW8N3PhafWy2NNOPdUlT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -849,6 +871,51 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="TodoTutorial2.0" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/TodoTutorial2.0.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="TodoTutorial2.0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="TodoTutorial2.0: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/TodoTutorial2.0.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="TodoTutorial2.0: TodoTutorial" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/TodoTutorial2.0.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="TodoTutorial" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -865,6 +932,9 @@
       <workItem from="1634983105875" duration="3948000" />
       <workItem from="1635073773831" duration="2606000" />
       <workItem from="1635076925034" duration="1649000" />
+      <workItem from="1635338185418" duration="443000" />
+      <workItem from="1635356699881" duration="91000" />
+      <workItem from="1635356993225" duration="689000" />
     </task>
     <task id="LOCAL-00001" summary="Created repository">
       <created>1634850013094</created>
