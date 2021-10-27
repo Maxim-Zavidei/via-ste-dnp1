@@ -98,20 +98,20 @@ else {
     }
 
     protected override async Task OnInitializedAsync() {
-        allTodos = TodoData.GetTodos();
+        allTodos = await TodoData.GetTodosAsync();
         todosToShow = allTodos;
     }
 
-    private void RemoveTodo(int todoId) {
+    private async Task RemoveTodo(int todoId) {
         Todo todoToRemove = allTodos.First(t => t.TodoId == todoId);
-        TodoData.RemoveTodo(todoId);
+        await TodoData.RemoveTodoAsync(todoId);
         allTodos.Remove(todoToRemove);
         todosToShow.Remove(todoToRemove);
     }
 
-    private void CompletedChange(ChangeEventArgs evt, Todo todo) {
+    private async Task CompletedChange(ChangeEventArgs evt, Todo todo) {
         todo.IsCompleted = (bool) evt.Value;
-        TodoData.Update(todo);
+        await TodoData.UpdateAsync(todo);
     }
 
     private void Edit(int id) {

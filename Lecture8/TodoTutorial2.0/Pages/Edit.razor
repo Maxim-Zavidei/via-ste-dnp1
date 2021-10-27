@@ -34,11 +34,11 @@
     private Todo todoToEdit;
 
     protected override async Task OnInitializedAsync() {
-        todoToEdit = TodoData.Get(Id);
+        todoToEdit = await TodoData.GetAsync(Id);
     }
 
-    private void Save() {
-        TodoData.Update(todoToEdit);
+    private async Task Save() {
+        await TodoData.UpdateAsync(todoToEdit);
         NavMgr.NavigateTo("/Todos");
     }
 
