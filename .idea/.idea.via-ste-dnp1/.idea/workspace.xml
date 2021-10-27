@@ -48,6 +48,8 @@
     <projectFile profileName="IIS Express">Lecture8/TodoTutorial2.0/TodoTutorial2.0.csproj</projectFile>
     <projectFile profileName="TodoTutorial2.0">Lecture8/TodoTutorial2.0/TodoTutorial2.0.csproj</projectFile>
     <projectFile profileName="TodoTutorial">Lecture8/TodoTutorial2.0/TodoTutorial2.0.csproj</projectFile>
+    <projectFile profileName="IIS Express">Lecture4/TodoTutorial/TodoTutorial.csproj</projectFile>
+    <projectFile profileName="TodoTutorial">Lecture4/TodoTutorial/TodoTutorial.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="">
@@ -100,7 +102,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Lecture4/TodoTutorial/Data/TodoJSONData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lecture4/TodoTutorial/Data/TodoJSONData.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1zpeyo2oW8N3PhafWy2NNOPdUlT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -871,6 +873,21 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="TodoTutorial" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Lecture4/TodoTutorial/TodoTutorial.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="TodoTutorial" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="TodoTutorial2.0" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Lecture8/TodoTutorial2.0/TodoTutorial2.0.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
@@ -916,6 +933,21 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="TodoTutorial: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Lecture4/TodoTutorial/TodoTutorial.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -935,6 +967,7 @@
       <workItem from="1635338185418" duration="443000" />
       <workItem from="1635356699881" duration="91000" />
       <workItem from="1635356993225" duration="689000" />
+      <workItem from="1635358319594" duration="3085000" />
     </task>
     <task id="LOCAL-00001" summary="Created repository">
       <created>1634850013094</created>
