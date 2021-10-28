@@ -32,10 +32,9 @@ namespace TodoTutorial3._0.Data {
             todos = ts.ToList();
         }
 
-
-        public async Task<IList<Todo>> GetTodosAsync() {
+        public async Task<IList<Todo>> GetTodosAsync(int userId, bool isCompleted) {
             List<Todo> tmp = new List<Todo>(todos);
-            return tmp;
+            return tmp.Where(t => t.UserId == userId && t.IsCompleted == isCompleted).ToList();
         }
 
         public async Task AddTodoAsync(Todo todo) {
@@ -56,7 +55,7 @@ namespace TodoTutorial3._0.Data {
             toUpdate.Title = todo.Title;
             WriteTodosToFile();
         }
-        
+
         public async Task<Todo> GetAsync(int id) {
             return todos.FirstOrDefault(t => t.TodoId == id);
         }

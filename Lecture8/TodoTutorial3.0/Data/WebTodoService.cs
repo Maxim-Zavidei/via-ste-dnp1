@@ -15,8 +15,8 @@ namespace TodoTutorial3._0.Data {
             client = new HttpClient();
         }
 
-        public async Task<IList<Todo>> GetTodosAsync() {
-            HttpResponseMessage responseMessage = await client.GetAsync(uri + "/Todos");
+        public async Task<IList<Todo>> GetTodosAsync(int userId, bool isCompleted) {
+            HttpResponseMessage responseMessage = await client.GetAsync($"{uri}/Todos?userId={userId}&completed={isCompleted.ToString().ToLower()}");
 
             if (!responseMessage.IsSuccessStatusCode)
                 throw new Exception($@"Error: {responseMessage.StatusCode}, {responseMessage.ReasonPhrase}");

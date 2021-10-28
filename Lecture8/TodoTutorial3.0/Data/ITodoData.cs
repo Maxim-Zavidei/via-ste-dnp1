@@ -4,7 +4,7 @@ using TodoTutorial3._0.Models;
 
 namespace TodoTutorial3._0.Data {
     public interface ITodoData {
-        Task<IList<Todo>> GetTodosAsync();
+        Task<IList<Todo>> GetTodosAsync(int userId, bool isCompleted);
         Task AddTodoAsync(Todo todo);
         Task RemoveTodoAsync(int todoId);
         Task UpdateAsync(Todo todo);

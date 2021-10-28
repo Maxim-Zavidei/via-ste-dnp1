@@ -60,194 +60,12 @@
     <projectFile profileName="TodoTutorial2.0">Lecture8/TodoTutorial3.0/TodoTutorial3.0.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/App.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Application.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Authentication/CustomAuthenticationStateProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Data/IData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Data/IUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Data/Impl/InMemoryUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Models/Adult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Models/Child.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Models/Family.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Models/Interest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Models/Job.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Models/Person.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Models/Pet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Models/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Pages/AddAdult.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Pages/AddAdult.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Pages/Adults.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Pages/Adults.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Pages/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Pages/Error.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Pages/Index.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Pages/Login.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Pages/Login.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Pages/Register.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Pages/Register.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Pages/SecurityLevel.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Pages/_Host.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Persistence/FileContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Shared/MainLayout.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Shared/MainLayout.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/_Imports.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/adults.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/families.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/usersFile.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/wwwroot/css/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/wwwroot/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/wwwroot/css/open-iconic/FONT-LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/wwwroot/css/open-iconic/ICON-LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/wwwroot/css/open-iconic/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/wwwroot/css/open-iconic/font/fonts/open-iconic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/wwwroot/css/open-iconic/font/fonts/open-iconic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/wwwroot/css/open-iconic/font/fonts/open-iconic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/wwwroot/css/open-iconic/font/fonts/open-iconic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/wwwroot/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1/Application/wwwroot/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/App.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/Application.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/Pages/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/Pages/Error.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/Pages/Index.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/Pages/_Host.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/Shared/MainLayout.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/Shared/MainLayout.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/_Imports.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/wwwroot/css/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/wwwroot/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/wwwroot/css/open-iconic/FONT-LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/wwwroot/css/open-iconic/ICON-LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/wwwroot/css/open-iconic/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/wwwroot/css/open-iconic/font/fonts/open-iconic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/wwwroot/css/open-iconic/font/fonts/open-iconic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/wwwroot/css/open-iconic/font/fonts/open-iconic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/wwwroot/css/open-iconic/font/fonts/open-iconic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/wwwroot/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/wwwroot/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/WebAPI/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/WebAPI/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/WebAPI/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/WebAPI/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/WebAPI/WeatherForecast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/WebAPI/WebAPI.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/WebAPI/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/WebAPI/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/App.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Data/ITodoData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Data/TodoJSONData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Data/WebTodoService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Models/Todo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Pages/AddTodo.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Pages/Edit.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Pages/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Pages/Error.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Pages/Index.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Pages/Todos.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Pages/_Host.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Shared/MainLayout.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Shared/MainLayout.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Shared/NavMenu.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Shared/NavMenu.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Shared/SurveyPrompt.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/TodoTutorial3.0.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/_Imports.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/todos.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/wwwroot/css/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/wwwroot/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/wwwroot/css/open-iconic/FONT-LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/wwwroot/css/open-iconic/ICON-LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/wwwroot/css/open-iconic/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/wwwroot/css/open-iconic/font/fonts/open-iconic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/wwwroot/css/open-iconic/font/fonts/open-iconic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/wwwroot/css/open-iconic/font/fonts/open-iconic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/wwwroot/css/open-iconic/font/fonts/open-iconic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/wwwroot/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/wwwroot/favicon.ico" afterDir="false" />
+    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="Initial commit setup Todo Tutorial 3.0 from lecture 8">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/App.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Assignment1.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Authentication/CustomAuthenticationStateProvider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Data/IData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Data/IUserService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Data/Impl/InMemoryUserService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Models/Adult.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Models/Child.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Models/Family.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Models/Interest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Models/Job.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Models/Person.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Models/Pet.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Models/User.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Pages/AddAdult.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Pages/AddAdult.razor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Pages/Adults.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Pages/Adults.razor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Pages/Error.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Pages/Error.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Pages/Index.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Pages/Login.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Pages/Login.razor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Pages/Register.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Pages/Register.razor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Pages/SecurityLevel.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Pages/_Host.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Persistence/FileContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Shared/MainLayout.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Shared/MainLayout.razor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/Startup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/_Imports.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/adults.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/families.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/usersFile.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/wwwroot/css/bootstrap/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/wwwroot/css/bootstrap/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/wwwroot/css/open-iconic/FONT-LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/wwwroot/css/open-iconic/ICON-LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/wwwroot/css/open-iconic/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/wwwroot/css/open-iconic/font/fonts/open-iconic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/wwwroot/css/open-iconic/font/fonts/open-iconic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/wwwroot/css/open-iconic/font/fonts/open-iconic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/wwwroot/css/open-iconic/font/fonts/open-iconic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/wwwroot/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment1/wwwroot/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment2/Assignment2.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment2/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment2/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment2/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment2/Startup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment2/WeatherForecast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment2/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment2/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/via-ste-dnp1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/via-ste-dnp1.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Data/ITodoData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Data/ITodoData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Data/TodoJSONData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Data/TodoJSONData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Data/WebTodoService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Data/WebTodoService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Pages/Todos.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Pages/Todos.razor" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1247,6 +1065,7 @@
       <workItem from="1635410028749" duration="2829000" />
       <workItem from="1635419507588" duration="1815000" />
       <workItem from="1635421618740" duration="460000" />
+      <workItem from="1635422089876" duration="4467000" />
     </task>
     <task id="LOCAL-00001" summary="Created repository">
       <created>1634850013094</created>
@@ -1486,7 +1305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635367730206</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Initial commit setup Todo Tutorial 3.0 from lecture 8">
+      <created>1635422468383</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1635422468383</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1507,7 +1333,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Solution for exercise 7, lecture 1" />
     <MESSAGE value="Solution for exercise 8, lecture 1" />
     <MESSAGE value="Solution for exercise 9, lecture 1" />
     <MESSAGE value="Solution for exercise 1, lecture 2" />
@@ -1532,6 +1357,7 @@
     <MESSAGE value="Added assignment1" />
     <MESSAGE value="Initial commit for TodoTutorial 2.0 exercise" />
     <MESSAGE value="Solution for Todo Tutorial 2.0 from lecture 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for Todo Tutorial 2.0 from lecture 8" />
+    <MESSAGE value="Initial commit setup Todo Tutorial 3.0 from lecture 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit setup Todo Tutorial 3.0 from lecture 8" />
   </component>
 </project>
