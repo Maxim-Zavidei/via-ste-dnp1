@@ -1,0 +1,55 @@
+﻿@page "/AddAdult"
+@attribute [Authorize(Policy = "MustBeLoggedIn")]
+
+@using Microsoft.AspNetCore.Components
+@using Application.Models
+@using Application.Data
+
+@inject IData FileContext
+@inject NavigationManager NavigationManager
+
+<h3>AddAdult</h3>
+
+<EditForm Model="@newAdultItem" OnValidSubmit="@AddNewAdult">
+    <DataAnnotationsValidator/>
+    <ValidationSummary/>
+    <div class="form-group"> User Id: <br/>
+        <InputNumber @bind-Value="newAdultItem.Id"></InputNumber>
+    </div>
+    <div class="form-group"> First Name: <br/>
+        <InputText @bind-Value="newAdultItem.FirstName"></InputText>
+    </div>
+    <div class="form-group"> Last Name: <br/>
+        <InputText @bind-Value="newAdultItem.LastName"></InputText>
+    </div>
+    <div class="form-group"> Hair Color: <br/>
+        <InputText @bind-Value="newAdultItem.HairColor"></InputText>
+    </div>
+    <div class="form-group"> Eye Color: <br/>
+        <InputText @bind-Value="newAdultItem.EyeColor"></InputText>
+    </div>
+    <div class="form-group"> Age: <br/>
+        <InputNumber @bind-Value="newAdultItem.Age"></InputNumber>
+    </div>
+    <div class="form-group"> Weight: <br/>
+        <InputNumber @bind-Value="newAdultItem.Weight"></InputNumber>
+    </div>
+    <div class="form-group"> Height: <br/>
+        <InputNumber @bind-Value="newAdultItem.Height"></InputNumber>
+    </div>
+    <div class="form-group"> Sex: <br/>
+        <InputText @bind-Value="newAdultItem.Sex"></InputText>
+    </div>
+    <p class="actions">
+        <button class="btn btn-outline-light" type="submit">Create</button>
+    </p>
+</EditForm>
+
+@code {
+    private Adult newAdultItem = new Adult();
+
+    private void AddNewAdult() {
+        FileContext.AddAdult(newAdultItem);
+        NavigationManager.NavigateTo("/Adults");
+    }
+}
