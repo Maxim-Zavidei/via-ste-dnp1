@@ -31,6 +31,7 @@
     <projectFile>Lecture3/SendingObject-Client/SendingObject-Client.csproj</projectFile>
     <projectFile>Lecture3/SendingObject-Server/SendingObject-Server.csproj</projectFile>
     <projectFile>Lecture7/HangmanGame/HangmanGame.csproj</projectFile>
+    <projectFile>Lecture8/TodoWebAPI-WithoutBlazor/TodoWebAPI-WithoutBlazor.csproj</projectFile>
     <projectFile profileName="IIS Express">Lecture7/AdvancedTodoWebAPI/AdvancedTodoWebAPI.csproj</projectFile>
     <projectFile profileName="AdvancedTodoWebAPI">Lecture7/AdvancedTodoWebAPI/AdvancedTodoWebAPI.csproj</projectFile>
     <projectFile profileName="IIS Express">Lecture4/BlazorTutorial/BlazorTutorial.csproj</projectFile>
@@ -60,12 +61,12 @@
     <projectFile profileName="TodoTutorial2.0">Lecture8/TodoTutorial3.0/TodoTutorial3.0.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="Initial commit setup Todo Tutorial 3.0 from lecture 8">
+    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="Solution for Todo Tutorial 3.0 from lecture 8">
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoWebAPI-WithoutBlazor/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoWebAPI-WithoutBlazor/Todo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture8/TodoWebAPI-WithoutBlazor/TodoWebAPI-WithoutBlazor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Data/ITodoData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Data/ITodoData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Data/TodoJSONData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Data/TodoJSONData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Data/WebTodoService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Data/WebTodoService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Pages/Todos.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture8/TodoTutorial3.0/Pages/Todos.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/via-ste-dnp1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/via-ste-dnp1.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +78,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Lecture4/TodoTutorial/Data/TodoJSONData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/repos/via-ste-dnp1/Lecture8/TodoTutorial3.0/Data/ITodoData.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1zpeyo2oW8N3PhafWy2NNOPdUlT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -96,7 +98,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.AdvancedTodoWebAPI">
+  <component name="RunManager" selected=".NET Project.TodoWebAPI-WithoutBlazor">
     <configuration name="ABBA" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -637,6 +639,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="TodoWebAPI-WithoutBlazor" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lecture8/TodoWebAPI-WithoutBlazor/TodoWebAPI-WithoutBlazor.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="AdvancedTodoWebAPI" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Lecture7/AdvancedTodoWebAPI/AdvancedTodoWebAPI.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
@@ -1065,7 +1085,7 @@
       <workItem from="1635410028749" duration="2829000" />
       <workItem from="1635419507588" duration="1815000" />
       <workItem from="1635421618740" duration="460000" />
-      <workItem from="1635422089876" duration="4467000" />
+      <workItem from="1635422089876" duration="8108000" />
     </task>
     <task id="LOCAL-00001" summary="Created repository">
       <created>1634850013094</created>
@@ -1312,7 +1332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635422468383</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Solution for Todo Tutorial 3.0 from lecture 8">
+      <created>1635426781570</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1635426781570</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1333,7 +1360,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Solution for exercise 8, lecture 1" />
     <MESSAGE value="Solution for exercise 9, lecture 1" />
     <MESSAGE value="Solution for exercise 1, lecture 2" />
     <MESSAGE value="Solution for exercise 2, lecture 2" />
@@ -1358,6 +1384,7 @@
     <MESSAGE value="Initial commit for TodoTutorial 2.0 exercise" />
     <MESSAGE value="Solution for Todo Tutorial 2.0 from lecture 8" />
     <MESSAGE value="Initial commit setup Todo Tutorial 3.0 from lecture 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit setup Todo Tutorial 3.0 from lecture 8" />
+    <MESSAGE value="Solution for Todo Tutorial 3.0 from lecture 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for Todo Tutorial 3.0 from lecture 8" />
   </component>
 </project>
