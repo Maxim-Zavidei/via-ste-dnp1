@@ -61,12 +61,24 @@
     <projectFile profileName="TodoTutorial2.0">Lecture8/TodoTutorial3.0/TodoTutorial3.0.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="Solution for Todo Tutorial 3.0 from lecture 8">
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoWebAPI-WithoutBlazor/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoWebAPI-WithoutBlazor/Todo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture8/TodoWebAPI-WithoutBlazor/TodoWebAPI-WithoutBlazor.csproj" afterDir="false" />
+    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignment2/WebAPI/Controllers/AdultsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/WebAPI/Controllers/UsersController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/WebAPI/Data/IData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/WebAPI/Data/IUserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/WebAPI/Data/Impl/InMemoryUserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/WebAPI/Models/Adult.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/WebAPI/Models/Child.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/WebAPI/Models/Family.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/WebAPI/Models/Interest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/WebAPI/Models/Job.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/WebAPI/Models/Person.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/WebAPI/Models/Pet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/WebAPI/Models/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/WebAPI/Persistence/FileContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/via-ste-dnp1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/via-ste-dnp1.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/WebAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/WebAPI/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/WebAPI/WebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/WebAPI/WebAPI.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +90,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Lecture4/TodoTutorial/Data/TodoJSONData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/repos/via-ste-dnp1/Lecture8/TodoTutorial3.0/Data/ITodoData.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1zpeyo2oW8N3PhafWy2NNOPdUlT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -1085,7 +1096,9 @@
       <workItem from="1635410028749" duration="2829000" />
       <workItem from="1635419507588" duration="1815000" />
       <workItem from="1635421618740" duration="460000" />
-      <workItem from="1635422089876" duration="8108000" />
+      <workItem from="1635422089876" duration="8598000" />
+      <workItem from="1635448760661" duration="3302000" />
+      <workItem from="1635505070034" duration="7778000" />
     </task>
     <task id="LOCAL-00001" summary="Created repository">
       <created>1634850013094</created>
@@ -1339,7 +1352,21 @@
       <option name="project" value="LOCAL" />
       <updated>1635426781570</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Solution for exercise Todo Web API - without blazor from lecture 8">
+      <created>1635433860682</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1635433860682</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Initial commit for assignment2">
+      <created>1635433885511</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1635433885511</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1360,8 +1387,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Solution for exercise 9, lecture 1" />
-    <MESSAGE value="Solution for exercise 1, lecture 2" />
     <MESSAGE value="Solution for exercise 2, lecture 2" />
     <MESSAGE value="Solution for exercise 3, lecture 2" />
     <MESSAGE value="Solution for exercise 4, lecture 2" />
@@ -1385,6 +1410,8 @@
     <MESSAGE value="Solution for Todo Tutorial 2.0 from lecture 8" />
     <MESSAGE value="Initial commit setup Todo Tutorial 3.0 from lecture 8" />
     <MESSAGE value="Solution for Todo Tutorial 3.0 from lecture 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for Todo Tutorial 3.0 from lecture 8" />
+    <MESSAGE value="Solution for exercise Todo Web API - without blazor from lecture 8" />
+    <MESSAGE value="Initial commit for assignment2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit for assignment2" />
   </component>
 </project>
