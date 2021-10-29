@@ -5,7 +5,7 @@
 @using Application.Models
 @using Application.Data
 
-@inject IData FileContext
+@inject IData WebService
 @inject NavigationManager NavigationManager
 
 <h3>AddAdult</h3>
@@ -49,7 +49,7 @@
     private Adult newAdultItem = new Adult();
 
     private void AddNewAdult() {
-        FileContext.AddAdult(newAdultItem);
+        WebService.AddAdultAsync(newAdultItem);
         NavigationManager.NavigateTo("/Adults");
     }
 }

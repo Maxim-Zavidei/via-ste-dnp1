@@ -30,7 +30,7 @@ namespace WebAPI.Controllers {
 
         [HttpDelete]
         [Route("{id:int}")]
-        public async Task<ActionResult> DeleteTodo([FromRoute] int id) {
+        public async Task<ActionResult> DeleteAdult([FromRoute] int id) {
             try {
                 await dataService.DeleteAdultAsync(id);
                 return Ok();
@@ -42,7 +42,7 @@ namespace WebAPI.Controllers {
         }
 
         [HttpPost]
-        public async Task<ActionResult<Adult>> AddTodo([FromBody] Adult adult) {
+        public async Task<ActionResult<Adult>> AddAdult([FromBody] Adult adult) {
             if (!ModelState.IsValid) {
                 return BadRequest(ModelState);
             }
@@ -59,7 +59,7 @@ namespace WebAPI.Controllers {
 
         [HttpPatch]
         [Route("{id:int}")]
-        public async Task<ActionResult<Adult>> UpdateTodo([FromBody] Adult adult) {
+        public async Task<ActionResult<Adult>> UpdateAdult([FromBody] Adult adult) {
             try {
                 Adult updatedAdult = await dataService.UpdateAdultAsync(adult);
                 if (adult == null) throw new Exception();

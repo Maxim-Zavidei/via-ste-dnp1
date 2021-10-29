@@ -46,16 +46,18 @@
             ErrorMessage = "Both password should match";
             return;
         }
-        if (((CustomAuthenticationStateProvider) AuthenticationStateProvider).IsEmailRegisted(email)) {
-            ErrorMessage = "This email is already registered.";
+        try {
+            ((CustomAuthenticationStateProvider) AuthenticationStateProvider).RegisterUser(new User() {
+                FirstName = firstName,
+                LastName = lastName,
+                Email = email,
+                Password = password
+            });
+        }
+        catch (Exception e) {
+            ErrorMessage = e.Message;
             return;
         }
-        ((CustomAuthenticationStateProvider) AuthenticationStateProvider).RegisterUser(new User() {
-            FirstName = firstName,
-            LastName = lastName,
-            Email = email,
-            Password = password
-        });
         ((CustomAuthenticationStateProvider) AuthenticationStateProvider).ValidateLogin(email, password);
         email = "";
         password = "";

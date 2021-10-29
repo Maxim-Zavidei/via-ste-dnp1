@@ -1,9 +1,9 @@
-﻿using Application.Models;
+﻿using System.Threading.Tasks;
+using Application.Models;
 
 namespace Application.Data {
     public interface IUserService {
-        User ValidateUser(string UserName, string Password);
-        bool IsEmailRegistered(string email);
-        void RegisterUser(User user);
+        Task<User> ValidateUser(string UserName, string Password);
+        Task RegisterUser(User user);
     }
 }

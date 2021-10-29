@@ -1,7 +1,5 @@
 using Application.Authentication;
 using Application.Data;
-using Application.Data.Impl;
-using Application.Persistence;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Hosting;
@@ -26,8 +24,8 @@ namespace Application
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<IData, FileContext>();
-            services.AddScoped<IUserService, InMemoryUserService>();
+            services.AddSingleton<IData, WebService>();
+            services.AddScoped<IUserService, WebService>();
             services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
 
             services.AddAuthorization(options => {
