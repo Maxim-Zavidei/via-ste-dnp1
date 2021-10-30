@@ -30,18 +30,6 @@ namespace WebAPI.Persistence {
             }
         }
 
-        public IList<Adult> GetAdults() {
-            List<Adult> tmp = new List<Adult>(Adults);
-            return tmp;
-        }
-
-        public void AddAdult(Adult adult) {
-            int max = Adults.Max(adult => adult.Id);
-            adult.Id = (++max);
-            Adults.Add(adult);
-            SaveChanges();
-        }
-
         public async Task<IList<Adult>> GetAdultsAsync(int? id, string name, int? age, string sex) {
             var tmp = new List<Adult>(Adults);
             if (id != null) tmp = tmp.Where(t => t.Id == id).ToList();

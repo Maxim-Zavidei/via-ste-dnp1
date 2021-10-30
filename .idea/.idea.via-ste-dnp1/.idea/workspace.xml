@@ -61,23 +61,9 @@
     <projectFile profileName="TodoTutorial2.0">Lecture8/TodoTutorial3.0/TodoTutorial3.0.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="Solution for web api from assigment 2">
-      <change afterPath="$PROJECT_DIR$/Assignment2/Application/Data/WebService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/WebAPI/adults.json" afterDir="false" />
+    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Application/Authentication/CustomAuthenticationStateProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Application/Authentication/CustomAuthenticationStateProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Application/Data/IData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Application/Data/IData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Application/Data/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Application/Data/IUserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Application/Data/Impl/InMemoryUserService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Application/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Application/Models/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Application/Pages/AddAdult.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Application/Pages/AddAdult.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Application/Pages/Adults.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Application/Pages/Adults.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Application/Pages/Register.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Application/Pages/Register.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Application/Persistence/FileContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Application/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Application/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Application/usersFile.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/WebAPI/usersFile.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/WebAPI/Controllers/AdultsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/WebAPI/Controllers/AdultsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/WebAPI/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/WebAPI/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/WebAPI/Persistence/FileContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/WebAPI/Persistence/FileContext.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1097,7 +1083,10 @@
       <workItem from="1635421618740" duration="460000" />
       <workItem from="1635422089876" duration="8598000" />
       <workItem from="1635448760661" duration="3302000" />
-      <workItem from="1635505070034" duration="17854000" />
+      <workItem from="1635505070034" duration="18163000" />
+      <workItem from="1635534866194" duration="168000" />
+      <workItem from="1635590213878" duration="3696000" />
+      <workItem from="1635603185014" duration="2645000" />
     </task>
     <task id="LOCAL-00001" summary="Created repository">
       <created>1634850013094</created>
@@ -1372,7 +1361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635514499467</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Solution for assignment2">
+      <created>1635526902721</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1635526902721</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1393,7 +1389,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Solution for exercise 3, lecture 2" />
     <MESSAGE value="Solution for exercise 4, lecture 2" />
     <MESSAGE value="Solution for exercise 5, lecture 2" />
     <MESSAGE value="Solution for exercise 6, lecture 2" />
@@ -1418,6 +1413,7 @@
     <MESSAGE value="Solution for exercise Todo Web API - without blazor from lecture 8" />
     <MESSAGE value="Initial commit for assignment2" />
     <MESSAGE value="Solution for web api from assigment 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for web api from assigment 2" />
+    <MESSAGE value="Solution for assignment2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for assignment2" />
   </component>
 </project>
