@@ -67,32 +67,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase/Controllers/TodosController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase/Controllers/UsersController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase/Data/ITodosService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase/Data/IUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase/Data/InMemoryUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase/Data/SqliteTodoService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase/Data/TodoService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase/Migrations/20211108212848_InitialCreate.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase/Migrations/20211108212848_InitialCreate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase/Migrations/TodoContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase/Models/Todo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase/Models/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase/Persistence/TodoContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase/TodoDatabase.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase/TodoDatabase.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase/WeatherForecast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture9/TodoDatabase/todos.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/via-ste-dnp1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/via-ste-dnp1.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1201,6 +1176,7 @@
       <workItem from="1636404903587" duration="2645000" />
       <workItem from="1636413190495" duration="1000" />
       <workItem from="1636451112128" duration="3418000" />
+      <workItem from="1636454911667" duration="398000" />
     </task>
     <task id="LOCAL-00001" summary="Created repository">
       <created>1634850013094</created>
@@ -1496,7 +1472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636405259992</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Solution for TodoDatabase exercise from lecture 9">
+      <created>1636454949279</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1636454949279</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1517,7 +1500,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Solution for exercise 6, lecture 2" />
     <MESSAGE value="Solution for exercise 7, lecture 2" />
     <MESSAGE value="Solution for exercise 9, lecture 2" />
     <MESSAGE value="Solution for exercise 10, lecture 2" />
@@ -1542,6 +1524,7 @@
     <MESSAGE value="Solution for assignment2" />
     <MESSAGE value="Removed the unnecessary methods" />
     <MESSAGE value="Solution for Library exercise from lecture 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for Library exercise from lecture 9" />
+    <MESSAGE value="Solution for TodoDatabase exercise from lecture 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution for TodoDatabase exercise from lecture 9" />
   </component>
 </project>
