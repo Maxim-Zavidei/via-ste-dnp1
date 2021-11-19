@@ -20,5 +20,17 @@
         </library>
       </libraries>
     </data-source>
+    <data-source source="LOCAL" name="Family" uuid="780f322d-3634-4a28-9ecf-27f649ce0f3c">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\repos\via-ste-dnp1\Lecture10\LINQTraining\Family.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <libraries>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.34.0/sqlite-jdbc-3.34.0.jar</url>
+        </library>
+      </libraries>
+    </data-source>
   </component>
 </project>

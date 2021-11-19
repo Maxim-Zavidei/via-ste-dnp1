@@ -76,6 +76,10 @@ namespace LINQTraining
         public virtual void HowManyFamiliesLiveAt()
         {
             // street "Abby Park Street"
+            List<Family> families = ctx.Families.Where(family =>
+                family.StreetName == "Abby Park Street"
+            ).ToList();
+            Console.WriteLine(families.Count);
         }
 
 
@@ -84,7 +88,8 @@ namespace LINQTraining
         public virtual void HowManyFamiliesHaveOneParent()
         {
             // we are looking for the number families, which have exactly one parent.
-
+            List<Family> families = ctx.Families.Where(f => f.Adults.Count == 1).ToList();
+            Console.WriteLine(families.Count);
         }
 
         // answer: 123
@@ -92,7 +97,8 @@ namespace LINQTraining
         public virtual void HowManyFamiliesLiveInNumberThreeOrFive()
         {
             // no matter which street, just focus on house number
-       
+            List<Family> families = ctx.Families.Where(f => f.HouseNumber == 3 || f.HouseNumber == 5).ToList();
+            Console.WriteLine(families.Count);
         }
 
 
@@ -101,7 +107,11 @@ namespace LINQTraining
         public virtual void HowManyFamiliesHaveADog()
         {
             // one or more dogs
-            
+            List<Family> families = ctx.Families.Where(family =>
+                //family.Pets.Where(p => p.Species == "dog").Count() > 0
+                family.Pets.Any(p => p.Species == "dog")
+            ).ToList();
+            Console.WriteLine(families.Count);
         }
 
         // answer: 18
@@ -109,7 +119,11 @@ namespace LINQTraining
         public virtual void HowManyFamiliesHaveCatAndDog()
         {
             // one or more of either. But at least one dog, and at least one cat
-          
+            List<Family> families = ctx.Families.Where(family =>
+                //family.Pets.Where(p => p.Species == "dog").Count() > 0
+                family.Pets.Any(p => p.Species == "dog" || p.Species == "cat")
+            ).ToList();
+            Console.WriteLine(families.Count);
         }
 
 
@@ -118,7 +132,8 @@ namespace LINQTraining
         public virtual void HowManyFamiliesHave3Children()
         {
             // exactly 3 children
-            
+            List<Family> families = ctx.Families.Where(f => f.Children.Count == 3).ToList();
+            Console.WriteLine(families.Count);
         }
 
         // answer: 175
@@ -127,7 +142,13 @@ namespace LINQTraining
         {
             // looking for families with two parents of the same sex
             // this one is pretty tough in one query, if you don't all ToList() before the end.
-            
+            List<Family> families = ctx.Families.
+                Where(family => family.Adults.Count == 2).
+                Where(family => 
+                    family.Adults.Count(adult => 
+                        adult.Sex.Equals(family.Adults.First().Sex)) == 2).
+                ToList();
+            Console.WriteLine(families.Count);
         }
 
 
@@ -136,7 +157,10 @@ namespace LINQTraining
         public virtual void How_Many_Families_Have_An_Adult_With_Red_Hair()
         {
             // count the number of families with at least one adult with red hair.
-        
+            List<Family> families = ctx.Families.Where(family =>
+                family.Adults.Any(adut => adut.HairColor == "red")
+            ).ToList();
+            Console.WriteLine(families.Count);
         }
 
 
@@ -145,7 +169,10 @@ namespace LINQTraining
         public virtual void How_Many_Families_Have_2_Pets()
         {
             // Exactly 2 pets. Doesn't matter what type of pet. Ignore the children's pets for this one.
-            
+            List<Family> families = ctx.Families.Where(family =>
+                family.Pets.Count == 2
+            ).ToList();
+            Console.WriteLine(families.Count);
         }
 
 
@@ -154,7 +181,10 @@ namespace LINQTraining
         public virtual void How_Many_Families_Have_A_Child_Playing_Soccer()
         {
             // at least one child.
-            
+            List<Family> families = ctx.Families.Where(family =>
+                family.Children.Any(child => child.Interests.Any(i => i.Type == "Soccer"))
+            ).ToList();
+            Console.WriteLine(families.Count);
         }
 
         // answer: 355
@@ -162,7 +192,10 @@ namespace LINQTraining
         public virtual void How_Many_Families_Have_Adult_And_Child_With_Black_Hair()
         {
             // count number of families where at least one adult and one child have black hair
-          
+            List<Family> families = ctx.Families.Where(family =>
+                family.Adults.Any(adult => adult.HairColor == "Black") && family.Children.Any(child => child.HairColor == "Black")
+            ).ToList();
+            Console.WriteLine(families.Count);
         }
 
 
@@ -171,6 +204,14 @@ namespace LINQTraining
         public virtual void How_Many_Families_Have_A_Child_With_Black_Hair_Playing_Ultimate()
         {
             // count number of families where at least one child has black hair and plays ultimate
+            List<Family> families = ctx.Families.
+                Where(family => 
+                    family.Adults.Any(adult => 
+                        adult.HairColor.Equals("Black")) && 
+                    family.Children.Any(child => 
+                        child.HairColor.Equals("Black"))).
+                ToList();
+            Console.WriteLine(families.Count);
         }
 
 
@@ -178,13 +219,23 @@ namespace LINQTraining
         [Test]
         public virtual void HowManyFamiliesHaveTwoAdultsWithSameHairColor()
         {
+            List<Family> families = ctx.Families.
+                Where(family => family.Adults.Count == 2).
+                Where(family => 
+                    family.Adults.Count(adult => 
+                        adult.HairColor.Equals(family.Adults.First().HairColor)) == 2).
+                ToList();
+            Console.WriteLine(families.Count);
         }
 
         // answer: 90
         [Test]
         public virtual void HowManyFamiliesHaveAChildWithAHamster()
         {
-
+            List<Family> families = ctx.Families.Where(family =>
+                family.Children.Any(child => child.Pets.Any(p => p.Species == "Hamster"))
+            ).ToList();
+            Console.WriteLine(families.Count);
         }
 
         
@@ -192,6 +243,10 @@ namespace LINQTraining
         [Test]
         public virtual void HowManyChildrenAreInterestedInBothSoccerAndBarbies()
         {
+            List<Family> families = ctx.Families.Where(family =>
+                family.Children.Any(child => child.Interests.Any(i => i.Type == "Soccer" && i.Type == "Barbie"))
+            ).ToList();
+            Console.WriteLine(families.Count);
         }
 
         
@@ -199,6 +254,10 @@ namespace LINQTraining
         [Test]
         public virtual void HowManyChildrenAreOfHeightBetween95And112()
         {
+            List<Family> families = ctx.Families.Where(family =>
+                family.Adults.Any(a => a.Height > 94 && a.Height < 113)
+            ).ToList();
+            Console.WriteLine(families.Count);
         }
     }
 }
