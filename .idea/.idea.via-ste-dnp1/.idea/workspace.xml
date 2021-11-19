@@ -70,83 +70,24 @@
     <projectFile profileName="WebApplication">Assignment3/WebApplication/WebApplication.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/App.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Application.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Authentication/CustomAuthenticationStateProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Data/IData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Data/IUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Data/WebService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Models/Adult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Models/Child.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Models/Family.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Models/Interest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Models/Job.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Models/Person.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Models/Pet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Models/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Pages/AddAdult.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Pages/AddAdult.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Pages/Adults.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Pages/Adults.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Pages/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Pages/Error.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Pages/Index.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Pages/Login.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Pages/Login.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Pages/Register.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Pages/Register.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Pages/SecurityLevel.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Pages/_Host.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Shared/MainLayout.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Shared/MainLayout.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/_Imports.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/adults.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/families.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/wwwroot/css/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/wwwroot/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/wwwroot/css/open-iconic/FONT-LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/wwwroot/css/open-iconic/ICON-LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/wwwroot/css/open-iconic/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/wwwroot/css/open-iconic/font/fonts/open-iconic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/wwwroot/css/open-iconic/font/fonts/open-iconic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/wwwroot/css/open-iconic/font/fonts/open-iconic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/wwwroot/css/open-iconic/font/fonts/open-iconic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/wwwroot/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Application/wwwroot/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Controllers/AdultsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Controllers/UsersController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Data/IData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Data/IUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Data/Impl/InMemoryUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Models/Adult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Models/Child.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Models/Family.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Models/Interest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Models/Job.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Models/Person.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Models/Pet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Models/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Persistence/FileContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/WeatherForecast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/WebAPI.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/adults.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/usersFile.json" afterDir="false" />
+    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="Setup for assignment 3">
+      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Adults.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Data/Impl/SqliteAdultService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Migrations/20211119212022_InitialCreate.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Migrations/20211119212022_InitialCreate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Migrations/TodoContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Persistence/AdultContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/via-ste-dnp1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/via-ste-dnp1.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/WebAPI/Data/IData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Data/IData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/WebAPI/Models/Adult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Models/Adult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/WebAPI/Models/Job.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/WebAPI/Models/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Models/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/WebAPI/Persistence/FileContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/WebAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/WebAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/WebAPI/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/WebAPI/WebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/WebAPI/WebAPI.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +128,7 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Fiftyville">
+  <component name="RunManager" selected=".NET Project.WebAPI">
     <configuration name="ABBA" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -800,6 +741,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="WebAPI" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Assignment3/WebAPI/WebAPI.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="net5.0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="AdvancedTodoWebAPI" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Lecture7/AdvancedTodoWebAPI/AdvancedTodoWebAPI.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
@@ -1295,6 +1254,11 @@
         <option name="Build" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.WebAPI" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -1334,7 +1298,7 @@
       <workItem from="1636574689566" duration="308000" />
       <workItem from="1637327090360" duration="2260000" />
       <workItem from="1637329380409" duration="13165000" />
-      <workItem from="1637343876985" duration="1213000" />
+      <workItem from="1637343876985" duration="9468000" />
     </task>
     <task id="LOCAL-00001" summary="Created repository">
       <created>1634850013094</created>
@@ -1665,7 +1629,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637343431580</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Setup for assignment 3">
+      <created>1637345138771</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1637345138771</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1689,7 +1660,6 @@
       <path value="$PROJECT_DIR$/Lecture9/FiftyvilleDNP" />
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Solution for exercise 2 and 3, lecture 3" />
     <MESSAGE value="Solution for exercise 4, lecture 3" />
     <MESSAGE value="Solution for exercise 5, lecture 3" />
     <MESSAGE value="Solution for exercise 7, lecture 3" />
@@ -1714,6 +1684,7 @@
     <MESSAGE value="Restructured FiftyVille exercise" />
     <MESSAGE value="Initial commit for LinqTraining exercise" />
     <MESSAGE value="Solution for linq training exercise from lecture 10." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for linq training exercise from lecture 10." />
+    <MESSAGE value="Setup for assignment 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup for assignment 3" />
   </component>
 </project>

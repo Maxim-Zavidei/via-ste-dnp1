@@ -1,8 +1,8 @@
 using System.ComponentModel.DataAnnotations;
 
 namespace WebAPI.Models {
-    public class Person {
-        [Range(1, int.MaxValue, ErrorMessage = "Please enter a value bigger then {1}")]
+    public class  Person {
+        [Range(1, int.MaxValue, ErrorMessage = "Please enter a value bigger then {1}"), Key]
         public int Id { get; set; }
         [Required, MaxLength(100)]
         public string FirstName { get; set; }

@@ -13,6 +13,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using WebAPI.Data;
 using WebAPI.Data.Impl;
+using WebAPI.Models;
 using WebAPI.Persistence;
 
 namespace WebAPI {
@@ -26,7 +27,8 @@ namespace WebAPI {
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services) {
             services.AddControllers();
-            services.AddSingleton<IData, FileContext>();
+            services.AddDbContext<AdultContext>();
+            services.AddScoped<IData, SqliteAdultService>();
             services.AddScoped<IUserService, InMemoryUserService>();
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "WebAPI", Version = "v1"}); });
         }
