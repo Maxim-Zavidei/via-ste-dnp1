@@ -19,9 +19,7 @@ namespace Fiftyville.DataAccess
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            // name of database
-            // optionsBuilder.UseSqlite(@"Data Source = C:\TRMO\.NET projects\Fiftyville\Fiftyville\fiftyville.db");
-            optionsBuilder.UseSqlite(@"Data Source = D:\repos\via-ste-dnp1\Lecture9\FiftyvilleDNP\Fiftyville\fiftyville.db");
+            optionsBuilder.UseSqlite(@"Data Source = D:\repos\via-ste-dnp1\Lecture9\Fiftyville\fiftyville.db");
         }
     }
 }
