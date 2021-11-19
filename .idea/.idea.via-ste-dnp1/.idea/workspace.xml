@@ -33,6 +33,8 @@
     <projectFile>Lecture7/HangmanGame/HangmanGame.csproj</projectFile>
     <projectFile>Lecture8/TodoWebAPI-WithoutBlazor/TodoWebAPI-WithoutBlazor.csproj</projectFile>
     <projectFile>Lecture9/Library/Library.csproj</projectFile>
+    <projectFile>Lecture10/LINQTraining/LINQTraining.csproj</projectFile>
+    <projectFile>Lecture9/Fiftyville/Fiftyville.csproj</projectFile>
     <projectFile profileName="IIS Express">Lecture7/AdvancedTodoWebAPI/AdvancedTodoWebAPI.csproj</projectFile>
     <projectFile profileName="AdvancedTodoWebAPI">Lecture7/AdvancedTodoWebAPI/AdvancedTodoWebAPI.csproj</projectFile>
     <projectFile profileName="IIS Express">Lecture4/BlazorTutorial/BlazorTutorial.csproj</projectFile>
@@ -66,7 +68,87 @@
     <projectFile profileName="AdvancedTodoWebAPI">Lecture9/TodoDatabase/TodoDatabase.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="" />
+    <list default="true" id="5c8d1b62-0bb4-43a8-930a-823d64830a2b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/DataAccess/FamilyContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/DataModel/Adult.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/DataModel/Child.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/DataModel/Family.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/DataModel/Interest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/DataModel/Person.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/DataModel/Pet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/DataModel/StaticData/EyeColor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/DataModel/StaticData/FemaleName.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/DataModel/StaticData/HairColor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/DataModel/StaticData/InterestTypes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/DataModel/StaticData/JobTitles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/DataModel/StaticData/LastName.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/DataModel/StaticData/MaleName.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/DataModel/StaticData/PetNames.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/DataModel/StaticData/PetSpecies.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/DataModel/StaticData/Street.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/Exercises.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/Family.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/Generator/DBSeeder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/Generator/FamilyGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/LINQTraining.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/ModelsDiagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/PrintUtil/Printer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture10/LINQTraining/SolutionExample/Solutions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture9/Fiftyville/DataAccess/FiftyVilleContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture9/Fiftyville/Fiftyville.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture9/Fiftyville/GRdiagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture9/Fiftyville/Model/Airport.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture9/Fiftyville/Model/AtmTransaction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture9/Fiftyville/Model/BankAccount.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture9/Fiftyville/Model/CourtHouseSecurityLog.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture9/Fiftyville/Model/CrimeSceneReport.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture9/Fiftyville/Model/Flight.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture9/Fiftyville/Model/Interview.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture9/Fiftyville/Model/Passenger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture9/Fiftyville/Model/Person.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture9/Fiftyville/Model/PhoneCall.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture9/Fiftyville/PrintUtil/Printer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture9/Fiftyville/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture9/Fiftyville/QueryClass.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture9/Fiftyville/fiftyville.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.via-ste-dnp1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/.idea/.idea.Fiftyville/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/.idea/.idea.Fiftyville/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/.idea/.idea.Fiftyville/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/.idea/.idea.Fiftyville/.idea/dataSources/eafa6561-ffc5-4a8d-be0f-8df454de9b1d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/.idea/.idea.Fiftyville/.idea/dataSources/fe800fcf-0c65-4122-9211-6d52e620e340.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/.idea/.idea.Fiftyville/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/.idea/.idea.Fiftyville/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/.idea/.idea.Fiftyville/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/.idea/.idea.FiftyvilleDNP.dir/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/.idea/.idea.FiftyvilleDNP.dir/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/.idea/.idea.FiftyvilleDNP.dir/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/.idea/.idea.FiftyvilleDNP.dir/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/.idea/.idea.FiftyvilleDNP.dir/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/Fiftyville.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/Fiftyville.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/Fiftyville/DataAccess/FiftyVilleContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/Fiftyville/Fiftyville.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/Fiftyville/GRdiagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/Fiftyville/Model/Airport.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/Fiftyville/Model/AtmTransaction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/Fiftyville/Model/BankAccount.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/Fiftyville/Model/CourtHouseSecurityLog.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/Fiftyville/Model/CrimeSceneReport.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/Fiftyville/Model/Flight.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/Fiftyville/Model/Interview.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/Fiftyville/Model/Passenger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/Fiftyville/Model/Person.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/Fiftyville/Model/PhoneCall.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/Fiftyville/PrintUtil/Printer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/Fiftyville/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/Fiftyville/QueryClass.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/Fiftyville/fiftyville.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture9/FiftyvilleDNP/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/via-ste-dnp1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/via-ste-dnp1.sln" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +180,7 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Library">
+  <component name="RunManager" selected=".NET Project.Fiftyville">
     <configuration name="ABBA" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -279,6 +361,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Fiftyville" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lecture9/Fiftyville/Fiftyville.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="GameQuestLogic" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -378,6 +478,24 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lecture2/KthLargestNumber/KthLargestNumber.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="LINQTraining" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lecture10/LINQTraining/LINQTraining.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -1175,7 +1293,9 @@
       <workItem from="1636413190495" duration="1000" />
       <workItem from="1636451112128" duration="3418000" />
       <workItem from="1636454911667" duration="398000" />
-      <workItem from="1636571673018" duration="37000" />
+      <workItem from="1636571673018" duration="335000" />
+      <workItem from="1636574689566" duration="308000" />
+      <workItem from="1637327090360" duration="2260000" />
     </task>
     <task id="LOCAL-00001" summary="Created repository">
       <created>1634850013094</created>
@@ -1478,7 +1598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636454949279</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Upload for the Who stole the rubber duck exercise from lecture 9">
+      <created>1636571756247</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1636571756247</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1502,7 +1629,6 @@
       <path value="$PROJECT_DIR$/Lecture9/FiftyvilleDNP" />
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Solution for exercise 7, lecture 2" />
     <MESSAGE value="Solution for exercise 9, lecture 2" />
     <MESSAGE value="Solution for exercise 10, lecture 2" />
     <MESSAGE value="Solution for exercise 1, lecture 3" />
@@ -1527,6 +1653,7 @@
     <MESSAGE value="Removed the unnecessary methods" />
     <MESSAGE value="Solution for Library exercise from lecture 9" />
     <MESSAGE value="Solution for TodoDatabase exercise from lecture 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution for TodoDatabase exercise from lecture 9" />
+    <MESSAGE value="Upload for the Who stole the rubber duck exercise from lecture 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload for the Who stole the rubber duck exercise from lecture 9" />
   </component>
 </project>
